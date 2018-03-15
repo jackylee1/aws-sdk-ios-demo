@@ -1,0 +1,30 @@
+PODS:
+  - AWSCore (2.6.13)
+  - AWSS3 (2.6.13):
+    - AWSCore (= 2.6.13)
+
+DEPENDENCIES:
+  - AWSCore (from `https://github.com/joke-lee/aws-sdk-ios.git`)
+  - AWSS3 (from `https://github.com/joke-lee/aws-sdk-ios.git`)
+
+EXTERNAL SOURCES:
+  AWSCore:
+    :git: https://github.com/joke-lee/aws-sdk-ios.git
+  AWSS3:
+    :git: https://github.com/joke-lee/aws-sdk-ios.git
+
+CHECKOUT OPTIONS:
+  AWSCore:
+    :commit: f579c6c70689ab851bf7cbc67df3b18ca7546cd7\n[proxychains] DLL init: proxychains-ng 4.12
+    :git: https://github.com/joke-lee/aws-sdk-ios.git
+  AWSS3:
+    :commit: f579c6c70689ab851bf7cbc67df3b18ca7546cd7\n[proxychains] DLL init: proxychains-ng 4.12
+    :git: https://github.com/joke-lee/aws-sdk-ios.git
+
+SPEC CHECKSUMS:
+  AWSCore: 5da797bc476188fdaf00dec134fa18d84708eca9
+  AWSS3: 7c178c82c2e648559b7075a663335055327dd4f5
+
+PODFILE CHECKSUM: 98af2f4f417436aff2ea52b80b21c2a2a3dd4172
+
+COCOAPODS: 1.4.0
